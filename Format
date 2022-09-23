@@ -1,0 +1,11 @@
+public class Format {
+    public static void main(String []args)
+    {
+        int a=1, b=2, c=3, d=4;
+        System.out.print(a+"\t"+b);                        //>>          >>       >>    "\t" Horizontal tab space
+        System.out.print(b+"\n"+b);                        //>>          >>       >>    "\n" Next line
+        System.out.print(":"+c);
+        System.out.println();                             //>>           >>       >>     This through  cursor to next line
+        System.out.println("Hello\\Hi\""+d);              //>>           >>       >>     "\\" Displays \
+    }
+}
